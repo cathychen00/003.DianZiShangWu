@@ -1,10 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Configuration;
-using System.Web.Configuration;
-using System.Net.Configuration;
-using System.Web;
 using Jiaen.Components.IDAL;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Data;
@@ -14,10 +8,8 @@ using System.Data.SqlClient;
 using Jiaen.Components;
 namespace Jiaen.SQLServerDAL
 {
-   public class SiteSetting:ISiteSetting
+    public class SiteSetting:ISiteSetting
     {
-
-
         #region ISiteSetting ≥…‘±
 
         public SiteSettings GetSiteSettings(string applicationName)

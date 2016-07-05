@@ -1,13 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Text;
-
 namespace Jiaen.Components.IDAL
 {
     /// <summary>
     /// 站点配置信息接口
     /// </summary>
-   public interface ISiteSetting
+    public interface ISiteSetting
     {
        /// <summary>
        /// 获取站点配置

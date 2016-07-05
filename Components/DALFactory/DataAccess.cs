@@ -1,6 +1,5 @@
 using System.Reflection;
 using System.Configuration;
-using System.Web.Configuration;
 using Jiaen.Components.IDAL;
 namespace Jiaen.Components
 {
@@ -10,7 +9,6 @@ namespace Jiaen.Components
     /// </summary>
     public sealed class DataAccess
     {
-
         // ≤È’“≥Ã–ÚºØ
         private static readonly string path = ConfigurationManager.AppSettings["WebDAL"];
 
