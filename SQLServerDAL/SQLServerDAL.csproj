@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AE49D43F-C5F1-4798-A9C9-3EE4C431127D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Jiaen.SQLServerDAL</RootNamespace>
+    <AssemblyName>Jiaen.SQLServerDAL</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="book\Book.cs" />
+    <Compile Include="book\BookCatena.cs" />
+    <Compile Include="book\FavBook.cs" />
+    <Compile Include="book\Publish.cs" />
+    <Compile Include="book\Review.cs" />
+    <Compile Include="Category.cs" />
+    <Compile Include="DownClass.cs" />
+    <Compile Include="DownLoad.cs" />
+    <Compile Include="EmailFormat.cs" />
+    <Compile Include="FriendLink.cs" />
+    <Compile Include="GuestBook.cs" />
+    <Compile Include="Help.cs" />
+    <Compile Include="HelpClass.cs" />
+    <Compile Include="ImageBook.cs" />
+    <Compile Include="Orders.cs" />
+    <Compile Include="Payment.cs" />
+    <Compile Include="Poll.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Send.cs" />
+    <Compile Include="SendArea.cs" />
+    <Compile Include="ShoppingCart.cs" />
+    <Compile Include="SiteDynamic.cs" />
+    <Compile Include="SiteSetting.cs" />
+    <Compile Include="Teacher.cs" />
+    <Compile Include="TitleCss.cs" />
+    <Compile Include="user\Address.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Components\Components.csproj">
+      <Project>{4F526F7C-4C97-4A9D-A069-07E9164A0FB7}</Project>
+      <Name>Components</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="存储过程.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

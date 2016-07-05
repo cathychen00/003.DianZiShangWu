@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Jiaen.Components.BookInfo">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\BookInfo.cs</FileName>
+      <HashCode>wFAoCIAww0xBMgJAOGAQCDACqwBDIY5IAQGSINOAKBE=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CategoryInfo" />
+      <Property Name="ReviewInfo" />
+      <Property Name="BookCatenaInfo" />
+      <Property Name="PublishInfo" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="ReviewInfo" Type="Jiaen.Components.ReviewInfo" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="3.538" />
+        <Point X="2.035" Y="3.538" Type="JumpStart" />
+        <Point X="2.201" Y="3.538" Type="JumpEnd" />
+        <Point X="2.375" Y="3.538" />
+        <Point X="2.375" Y="2.713" />
+        <Point X="2.75" Y="2.713" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="3.268" Y="0.57" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="BookCatenaInfo" Type="Jiaen.Components.BookCatenaInfo" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="3.743" />
+        <Point X="2.118" Y="3.743" />
+        <Point X="2.118" Y="4.684" />
+        <Point X="2.75" Y="4.684" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="2.994" Y="2.921" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="PublishInfo" Type="Jiaen.Components.PublishInfo" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="3.668" />
+        <Point X="2.118" Y="3.668" />
+        <Point X="2.118" Y="5.713" />
+        <Point X="2.75" Y="5.713" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="3.193" Y="4.456" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="CategoryInfo" Type="Jiaen.Components.CategoryInfo" ManuallyRouted="true">
+      <Path>
+        <Point X="2" Y="3.723" />
+        <Point X="2.118" Y="3.723" />
+        <Point X="2.118" Y="2.076" />
+        <Point X="2.75" Y="2.076" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.72" Y="0.646" />
+      </MemberNameLabel>
+    </AssociationLine>
+  </Class>
+  <Class Name="Jiaen.Components.CategoryInfo" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\CategoryInfo.cs</FileName>
+      <HashCode>AEABBAACAAQAAAAAAAAAAAAAACAAAQAAAQEAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Jiaen.Components.ReviewInfo" Collapsed="true">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\ReviewInfo.cs</FileName>
+      <HashCode>AQBICAAAAgBABAEAgAAAAAgqABAAIIAgAQAIAAAACAg=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Jiaen.Components.BookCatenaInfo" Collapsed="true">
+    <Position X="2.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\BookCatenaInfo.cs</FileName>
+      <HashCode>AAAAAAAAAAgiAAQAAAAAAAAEAQAAAAAAAAAAIAACAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jiaen.Components.PublishInfo" Collapsed="true">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\PublishInfo.cs</FileName>
+      <HashCode>ACAAIAAAAAgAAAAAAEAAAAAAAAAAQQCAAAEAAAAGAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Jiaen.Components.ImageBookInfo">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\ImageBookInfo.cs</FileName>
+      <HashCode>AQAACAAAAAgEAAAABAAAACABCQAACQAAAAkAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+  </Class>
+</ClassDiagram>

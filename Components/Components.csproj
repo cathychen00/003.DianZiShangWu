@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4F526F7C-4C97-4A9D-A069-07E9164A0FB7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Jiaen.Components</RootNamespace>
+    <AssemblyName>Jiaen.Components</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DALFactory\DataAccess.cs" />
+    <Compile Include="DBUtility\SqlHelper.cs" />
+    <Compile Include="Enumerations\BookOrderType.cs" />
+    <Compile Include="Enumerations\BookType.cs" />
+    <Compile Include="Enumerations\CategoryType.cs" />
+    <Compile Include="Enumerations\CatType.cs" />
+    <Compile Include="Enumerations\CheapType.cs" />
+    <Compile Include="Enumerations\CountType.cs" />
+    <Compile Include="Enumerations\ExtensionType.cs" />
+    <Compile Include="Enumerations\ImageBookType.cs" />
+    <Compile Include="Enumerations\InsertLinkType.cs" />
+    <Compile Include="Enumerations\LinkItemType.cs" />
+    <Compile Include="Enumerations\OrderStatusType.cs" />
+    <Compile Include="Enumerations\OrderType.cs" />
+    <Compile Include="Enumerations\ReviewType.cs" />
+    <Compile Include="Enumerations\SearchType.cs" />
+    <Compile Include="Enumerations\SiteDynamicType.cs" />
+    <Compile Include="Enumerations\UpdateBookType.cs" />
+    <Compile Include="Enumerations\UpdateImageType.cs" />
+    <Compile Include="Enumerations\UpdateUserType.cs" />
+    <Compile Include="Enumerations\ValidateUserType.cs" />
+    <Compile Include="Enumerations\ViewBookType.cs" />
+    <Compile Include="Enumerations\UpdateLinkType.cs" />
+    <Compile Include="Enumerations\WatermarkType.cs" />
+    <Compile Include="Globals.cs" />
+    <Compile Include="IDAL\book\IBook.cs" />
+    <Compile Include="IDAL\book\IBookCatena.cs" />
+    <Compile Include="IDAL\book\IFavBook.cs" />
+    <Compile Include="IDAL\book\IPublish.cs" />
+    <Compile Include="IDAL\book\IReview.cs" />
+    <Compile Include="IDAL\ICategory.cs" />
+    <Compile Include="IDAL\IDownClass.cs" />
+    <Compile Include="IDAL\IDownLoad.cs" />
+    <Compile Include="IDAL\IEmailFormat.cs" />
+    <Compile Include="IDAL\IFriendLink.cs" />
+    <Compile Include="IDAL\IGuestBook.cs" />
+    <Compile Include="IDAL\IHelp.cs" />
+    <Compile Include="IDAL\IHelpClass.cs" />
+    <Compile Include="IDAL\IImageBook.cs" />
+    <Compile Include="IDAL\IOrders.cs" />
+    <Compile Include="IDAL\IPayment.cs" />
+    <Compile Include="IDAL\IPoll.cs" />
+    <Compile Include="IDAL\ISend.cs" />
+    <Compile Include="IDAL\ISendArea.cs" />
+    <Compile Include="IDAL\IShoppingCart.cs" />
+    <Compile Include="IDAL\ISiteDynamic.cs" />
+    <Compile Include="IDAL\ISiteSetting.cs" />
+    <Compile Include="IDAL\ITeacher.cs" />
+    <Compile Include="IDAL\ITitleCss.cs" />
+    <Compile Include="IDAL\user\IAddress.cs" />
+    <Compile Include="JiaenConfiguration.cs" />
+    <Compile Include="Model\AddressInfo.cs" />
+    <Compile Include="Model\BookCatenaInfo.cs" />
+    <Compile Include="Model\BookInfo.cs" />
+    <Compile Include="Model\CartInfo.cs" />
+    <Compile Include="Model\CategoryInfo.cs" />
+    <Compile Include="Model\DownClassInfo.cs" />
+    <Compile Include="Model\DownLoadInfo.cs" />
+    <Compile Include="Model\EmailFormatInfo.cs" />
+    <Compile Include="Model\FavBookInfo.cs" />
+    <Compile Include="Model\FriendLinkInfo.cs" />
+    <Compile Include="Model\GuestBookInfo.cs" />
+    <Compile Include="Model\HelpClassInfo.cs" />
+    <Compile Include="Model\HelpInfo.cs" />
+    <Compile Include="Model\ImageBookInfo.cs" />
+    <Compile Include="Model\OrderDetailInfo.cs" />
+    <Compile Include="Model\OrdersInfo.cs" />
+    <Compile Include="Model\PaymentInfo.cs" />
+    <Compile Include="Model\PollInfo.cs" />
+    <Compile Include="Model\PublishInfo.cs" />
+    <Compile Include="Model\ReviewInfo.cs" />
+    <Compile Include="Model\RoleInfo.cs" />
+    <Compile Include="Model\SendAreaInfo.cs" />
+    <Compile Include="Model\SendInfo.cs" />
+    <Compile Include="Model\SiteDynamicInfo.cs" />
+    <Compile Include="Model\TeacherInfo.cs" />
+    <Compile Include="Model\TitleCssInfo.cs" />
+    <Compile Include="Model\UserInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SiteSettings.cs" />
+    <Compile Include="SiteUrls.cs" />
+    <Compile Include="Utility\MailUtility.cs" />
+    <Compile Include="Utility\StringHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
+    <None Include="ClassDiagram5.cd" />
+    <None Include="IDAL\ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,36 @@
+Asp.net2.0电子商务网源码
+
+采用三层架构开发，前台集成了产品在线展示，用户注册、在线调查、在线投稿
+   后台有类别管理\图书管理\订单管理\会员管理\配送范围管理\邮件列表\广告管理\友情链接管理等
+   后台添加图书时自动生成缩略图和文字水印	
+   主要参考了petshop的设计架构、使用了Asp.net2.0中很多MemberShip、master等新功能
+   后台管理地址/web/admin/ 超级管理员账号密码均为51aspx
+
+特别提示：该系统需要Sql2005数据库环境支持
+
+作者：clingingboy
+下载地址：http://www.51aspx.com/CV/AspNetDianZiShangWu
+
+                ╭═══════════════╮
+                ║        Asp.net源码网         ║
+  ╭══════┤     http://www.51aspx.com    ├══════╮
+  ║            ║ 论坛:http://bbs.51aspx.com   ║            ║
+  ║            ╰═══════════════╯            ║
+　║                                                          ║
+　║51aspx声明：                                              ║
+  ║   1) 本站不保证所提供软件或程序的完整性和安全性。        ║
+  ║   2) 转载本站提供的资源请勿删除本说明文件。              ║
+  ║   3) 本站提供的程序均为网上搜集，如果该代码涉及或侵害到您║
+  ║      的版权请立即写信通知我们。                          ║
+  ║   4) 本站提供代码只可供研究使用，请在下载24小时内删除,   ║
+  ║      切勿用于商业用途，由此引起一切后果与本站无关。      ║
+  ║   5) 如果源码有升级或修补，我们会在本站进行，恕不另行通知║
+　║                                                          ║
+  ║           本站专注于Asp.net源码下载                      ║
+  ║           联系方式 : support@51aspx.com                  ║
+  ║    ╭───────────────────────╮    ║
+  ╰══┤  Asp.net源码网 http://www.51aspx.com         ├══╯
+        ╰───────────────────────╯
+友情提示:
+    一般数据库文件默认在DB_51aspx文件夹下
+    如果使用VS2005打开本站项目文件，建议打开前务必安装VS2005Sp1

@@ -1,0 +1,5 @@
+E:\MyCode\003.DianZiShangWu\Components\bin\Debug\Jiaen.Components.dll
+E:\MyCode\003.DianZiShangWu\Components\bin\Debug\Jiaen.Components.pdb
+E:\MyCode\003.DianZiShangWu\Components\obj\Debug\Components.csprojResolveAssemblyReference.cache
+E:\MyCode\003.DianZiShangWu\Components\obj\Debug\Jiaen.Components.dll
+E:\MyCode\003.DianZiShangWu\Components\obj\Debug\Jiaen.Components.pdb

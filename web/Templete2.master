@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#"  AutoEventWireup="true" CodeFile="Templete2.master.cs" Inherits="Templete2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>无标题页</title>
+    <link runat="server" href="images/cssothers.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="whole">
+    <asp:ScriptManager ID="sc" runat="server"></asp:ScriptManager>
+       <jiaen:ViewDefaultBanner ID="ViewDefaultBanner1" runat="server" EnableViewState="false" />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        <div class="main">
+             <jiaen:ViewDynamic ID="ViewDynamic1" runat="server" EnableViewState="false" />
+            <jiaen:ViewDefaultBook ID="ViewDefaultBook1" runat="server" EnableViewState="false" />
+        
+</div>
+       </asp:ContentPlaceHolder>   
+        <div class="footer">
+       <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server" EnableViewState="false">
+       
+       </asp:ContentPlaceHolder>  
+            <jiaen:footer ID="Footer2" runat="server" />
+            </div>
+            </div>
+    </form>
+</body>
+</html>

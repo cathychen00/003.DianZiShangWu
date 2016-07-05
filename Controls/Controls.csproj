@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{801726B4-BF91-4A28-9013-E0D15F9673E4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Jiaen.Controls</RootNamespace>
+    <AssemblyName>Jiaen.Controls</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdCalendar.cs" />
+    <Compile Include="AllCategoryDropDownList.cs" />
+    <Compile Include="AllYearDropDownList.cs" />
+    <Compile Include="CategoryDropDownList.cs" />
+    <Compile Include="CollapablePanelControl\CollapablePanel.cs" />
+    <Compile Include="CollapablePanelControl\Item.cs" />
+    <Compile Include="CollectionPager.cs" />
+    <Compile Include="CssDropDownList.cs" />
+    <Compile Include="DayDropDownList.cs" />
+    <Compile Include="ImageUploader.cs" />
+    <Compile Include="LinkDropDownList.cs" />
+    <Compile Include="PayRadioButtonList.cs" />
+    <Compile Include="ServiceLabel.cs" />
+    <Compile Include="SiteImage.cs" />
+    <Compile Include="MonthDropDownList.cs" />
+    <Compile Include="OrderTypeCheckBoxList.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PublishDropDownList.cs" />
+    <Compile Include="SendAreaDropDownList.cs" />
+    <Compile Include="SendRadioButtonList.cs" />
+    <Compile Include="SqlPager.cs" />
+    <Compile Include="TextBox.cs" />
+    <Compile Include="ValidateCodeControl.cs" />
+    <Compile Include="ValidateCodeImage.cs" />
+    <Compile Include="YearDropDownList.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{53359E1E-B2D6-4CD5-BC26-29750F6E834E}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Components\Components.csproj">
+      <Project>{4F526F7C-4C97-4A9D-A069-07E9164A0FB7}</Project>
+      <Name>Components</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

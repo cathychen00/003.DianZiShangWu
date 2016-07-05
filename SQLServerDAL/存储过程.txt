@@ -1,0 +1,289 @@
+用户存储过程
+
+1.je_User_ValidateUser 验证用户
+
+2.je_User_InsertUser   注册用户
+
+3.je_User_UpdateUser   更新用户信息
+
+4.je_User_DeleteUser   删除用户信息
+
+5.je_User_GetUserByID  获取用户信息
+
+用户留言存储过程
+
+1.je_Gb_GetGuestBook       获取用户留言信息
+
+2.je_Gb_GetGuestBookByID   获取特定留言信息
+
+3.je_Gb_InsertGuestBook    插入留言信息
+
+4.je_Gb_DeleteGuestBookByID删除留言信息
+
+用户评论信息存储过程
+
+1.je_Reviews_GetReview     获取评论信息 
+
+2.je_Reviews_GetReviewByID 获取特定留言
+
+3.je_Reviews_InsertReview  插入评论信息
+
+4.je_Reviews_UpdateReview  更新评论信息
+
+5.je_Reviews_DeleteReview  删除评论信息
+
+用户送货地址存储过程
+
+1.je_Ad_GetAddresss        获取送货地址
+
+2.je_Ad_GetAddressByID　　 获取特定送货地址
+
+3.je_Ad_InsertAddress      插入送货地址
+
+4.je_Ad_UpdateAddress      更新送货地址
+
+5.je_Ad_DeleteAddress      删除送货地址
+
+标题样式存储过程
+
+1.je_Tc_GetTitleCss        获取标题样式
+
+2.je_Tc_GetTitleCssByID　　获取特定标题样式
+
+3.je_Tc_InsertTitleCss　　 插入标题样式
+
+4.je_Tc_UpdateTitleCss     更新标题样式
+
+5.je_Tc_DeleteTitleCss     删除标题样式
+
+图书系列信息
+
+1.je_Ct_GetCatenas        获取出版社信息
+
+2.je_Ct_GetCatenaByID　　 获取特定出版社信息
+
+3.je_Ct_InsertCatena　　  插入出版社信息
+
+4.je_Ct_UpdateCatena      更新出版社信息
+
+5.je_Ct_DeleteCatena      删除出版社信息
+
+图书出版社信息
+
+1.je_Pb_GetPublishs        获取出版社信息
+
+2.je_Pb_GetPublishByID　　 获取特定出版社信息
+
+3.je_Pb_InsertPublish　　  插入出版社信息
+
+4.je_Pb_UpdatePublish      更新出版社信息
+
+5.je_Pb_DeletePublish      删除出版社信息
+
+
+分类信息
+
+1.je_Cat_GetCategory       获取分类信息
+
+2.je_Cat_GetCategoryByID   获取特定分类信息
+
+3.je_Cat_InsertCategory    新增分类信息
+
+4.je_Cat_UpdateCategory    更新分类信息
+
+5.je_Cat_DeleteCategory    删除分类信息
+
+收藏图书
+
+1.je_FBook_GetFavBooks     获取收藏图书
+
+2.je_FBook_InsertFavBooks  插入收藏图书
+
+3.je_FBook_DeleteFavBooks  删除收藏图书
+
+
+友情链接管理
+
+1.je_Link_GetLinks         获取友情链接
+
+2.je_Link_GetLinkByID      获取特定友情链接
+
+3.je_Link_InsertLink       新增友情链接
+
+4.je_Link_UpdateLink       更新友情链接
+
+5.je_Link_UpdateLinkByID       更新友情链接
+
+5.je_Link_DeleteLink       删除友情链接
+
+站内动态管理
+
+1.je_Dy_GetSiteDynamic     获取站内动态信息
+
+2.je_Dy_GetSiteDynamicByID 获取特定站内动态信息
+
+3.je_Dy_InsertSiteDynamic  新增站内动态信息
+
+4.je_Dy_UpdateSiteDynamic  更新站内动态信息
+
+5.je_Dy_DeleteSiteDynamic  删除站内动态信息
+
+图书管理
+
+1.je_Book_GetIndexBook     获取首页图书
+
+2.je_Book_GetCheapBook     获取特价图书
+
+3.je_Book_GetNewBook       获取最新图书
+
+4.je_Book_InsertBook       新增图书
+
+5.je_Book_DeleteBook  　　 删除图书
+
+6.je_Book_UpdatePrice      更新图书价格
+
+7.je_Book_GetBookByID      获取特定图书
+
+8.je_Book_GetBookByCatID   获取分类图书
+
+9.je_Book_SearchBookNameByCatID   获取分类图书
+
+投票管理
+
+1.je_Poll_GetPoll          获取投票
+
+2.je_Poll_GetPollByID      获取特定投票
+
+3.je_Poll_InsertPoll       新增投票
+
+4.je_Poll_UpdatePoll       更新投票
+
+5.je_Poll_DeletePoll       删除投票
+
+6.je_Poll_UpdatePollNum    更新票数
+
+购物车操作
+
+1.je_Cart_InsertCart       插入购物车
+
+
+订单处理
+
+1.je_Order_InsertOrders    插入购物车
+
+2.je_Order_GetAllOrders    获取订单列表
+
+3.je_Order_GetDerailByID   获取订单产品
+
+4.je_Order_InsertOrders    插入购物车
+
+5.je_Order_GetUserOrders   获取用户订单列表
+
+
+配送方式
+
+1.je_Send_InsertSend      插入配送方式
+
+2.je_Send_GetSendByID     获取特定配送方式
+
+3.je_Send_UpdateSend      更新配送方式
+
+4.je_Send_DeleteSend      删除配送方式
+
+5.je_Send_GetSend         获取配送方式
+
+配送地点
+
+1.je_Area_InsertArea      插入配送地点
+
+2.je_Area_GetAreaByID     获取特定配送地点
+
+3.je_Area_UpdateArea      更新配送地点
+
+4.je_Area_DeleteArea      删除配送地点
+
+5.je_Area_GetArea         获取配送地点
+
+图书广告图片管理
+
+1.je_IB_GetImageBook         插入图书广告
+
+2.je_IB_GetImageBookByID     获取特定图书广告
+
+3.je_IB_InsertImageBook      更新图书广告
+
+4.je_IB_UpdateImageBook      删除图书广告
+
+5.je_IB_DeleteImageBookByID  获取图书广告
+
+帮助分类
+
+1.je_HC_GetHelpClass         获取帮助类别列表
+
+2.je_HC_GetHelpClassByID     获取特定帮助类别信息
+
+3.je_HC_InsertHelpClass      添加帮助类别信息
+
+4.je_HC_UpdateHelpClass      更新帮助类别信息
+
+5.je_HC_DeleteHelpClass      删除帮助类别信息
+
+帮助
+
+1.je_Help_GetHelp            获取帮助列表
+
+2.je_Help_GetHelpByID        获取特定帮助信息
+
+3.je_Help_InsertHelp         添加帮助信息
+
+4.je_Help_UpdateHelp         更新帮助信息
+
+5.je_Help_DeleteHelp         删除帮助信息
+
+支付方式
+
+1.je_Pay_GetGetPayment       获取支付方式列表
+
+2.je_Pay_GetPaymentID        获取特定支付方式
+
+3.je_Pay_InsertPayment       添加支付方式
+
+4.je_Pay_UpdatePayment       更新支付方式
+
+5.je_Pay_DeletePayment       删除支付方式
+
+下载分类
+
+1.je_DC_GetDownClass          获取下载类别列表
+
+2.je_DC_GetDownClassByID      获取特定下载类别方式
+
+3.je_DC_InsertDownClass       添加下载类别方式
+
+4.je_DC_UpdateDownClass       更新下载类别方式
+
+5.je_DC_DeleteDownClass       删除下载类别方式
+
+下载文件管理
+
+1.je_DL_GetDownLoad          获取下载文件列表
+
+2.je_DL_GetDownLoadByID      获取特定下载文件方式
+
+3.je_DL_InsertDownLoad       添加下载文件方式
+
+4.je_DL_UpdateDownLoad       更新下载文件方式
+
+5.je_DL_DeleteDownLoad       删除下载文件方式
+
+教师管理
+
+1.je_TE_GetTeacher          获取教师列表
+
+2.je_TE_GetTeacherByID      获取特定教师
+
+3.je_TE_InsertTeacher       添加教师方式
+
+4.je_TE_UpdateTeacher       更新教师方式
+
+5.je_TE_DeleteTeacher       删除教师方式

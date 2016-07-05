@@ -1,0 +1,14 @@
+bin\Debug\Jiaen.SQLServerDAL.dll
+bin\Debug\Jiaen.SQLServerDAL.pdb
+bin\Debug\Jiaen.Components.dll
+bin\Debug\Jiaen.Components.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Jiaen.SQLServerDAL.dll
+obj\Debug\Jiaen.SQLServerDAL.pdb
+obj\Release\ResolveAssemblyReference.cache
+bin\Release\Jiaen.SQLServerDAL.dll
+bin\Release\Jiaen.SQLServerDAL.pdb
+bin\Release\Jiaen.Components.dll
+bin\Release\Jiaen.Components.pdb
+obj\Release\Jiaen.SQLServerDAL.dll
+obj\Release\Jiaen.SQLServerDAL.pdb

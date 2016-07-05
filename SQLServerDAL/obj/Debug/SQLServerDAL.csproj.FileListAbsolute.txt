@@ -1,0 +1,7 @@
+E:\MyCode\003.DianZiShangWu\SQLServerDAL\bin\Debug\Jiaen.SQLServerDAL.dll
+E:\MyCode\003.DianZiShangWu\SQLServerDAL\bin\Debug\Jiaen.SQLServerDAL.pdb
+E:\MyCode\003.DianZiShangWu\SQLServerDAL\bin\Debug\Jiaen.Components.dll
+E:\MyCode\003.DianZiShangWu\SQLServerDAL\bin\Debug\Jiaen.Components.pdb
+E:\MyCode\003.DianZiShangWu\SQLServerDAL\obj\Debug\SQLServerDAL.csprojResolveAssemblyReference.cache
+E:\MyCode\003.DianZiShangWu\SQLServerDAL\obj\Debug\Jiaen.SQLServerDAL.dll
+E:\MyCode\003.DianZiShangWu\SQLServerDAL\obj\Debug\Jiaen.SQLServerDAL.pdb

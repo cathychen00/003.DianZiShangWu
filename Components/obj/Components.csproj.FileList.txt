@@ -1,0 +1,10 @@
+bin\Release\Jiaen.Components.dll
+bin\Release\Jiaen.Components.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Jiaen.Components.dll
+obj\Release\Jiaen.Components.pdb
+bin\Debug\Jiaen.Components.dll
+bin\Debug\Jiaen.Components.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Jiaen.Components.dll
+obj\Debug\Jiaen.Components.pdb

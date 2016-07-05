@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Jiaen.Components.SiteSettings" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SiteSettings.cs</FileName>
+      <HashCode>AAACAAQAAAEAAAAAAAAAAAABAACAgIAAogBCgBKAAgQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jiaen.Components.EmailFormatInfo" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\EmailFormatInfo.cs</FileName>
+      <HashCode>AhAAgAAAAAAAAAQAAAAAAAAAAAAKAAAAAAwBAAgAAIQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jiaen.Components.PaymentInfo" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\PaymentInfo.cs</FileName>
+      <HashCode>AAQAAAAkAUAMJACAAAgAAAASAACAABAAAQQAAAAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jiaen.Components.SendInfo" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\SendInfo.cs</FileName>
+      <HashCode>AAAAAAAAAQAAAACABAAAAAQgQAAAAAAAAAQAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jiaen.Components.SendAreaInfo" Collapsed="true">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\SendAreaInfo.cs</FileName>
+      <HashCode>AAABAAAAAAAQAACAAAAwAAQgAAQCAAABIAQAgQAAAAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jiaen.Components.FriendLinkInfo" Collapsed="true">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Model\FriendLinkInfo.cs</FileName>
+      <HashCode>AAAAABAAJAgAAAAgAAABIABgACAgAQAAAAkBAAACAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

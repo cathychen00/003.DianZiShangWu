@@ -1,0 +1,9 @@
+E:\MyCode\003.DianZiShangWu\BLL\bin\Debug\Jiaen.BLL.dll
+E:\MyCode\003.DianZiShangWu\BLL\bin\Debug\Jiaen.BLL.pdb
+E:\MyCode\003.DianZiShangWu\BLL\bin\Debug\Jiaen.Components.dll
+E:\MyCode\003.DianZiShangWu\BLL\bin\Debug\Jiaen.SQLServerDAL.dll
+E:\MyCode\003.DianZiShangWu\BLL\bin\Debug\Jiaen.Components.pdb
+E:\MyCode\003.DianZiShangWu\BLL\bin\Debug\Jiaen.SQLServerDAL.pdb
+E:\MyCode\003.DianZiShangWu\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\MyCode\003.DianZiShangWu\BLL\obj\Debug\Jiaen.BLL.dll
+E:\MyCode\003.DianZiShangWu\BLL\obj\Debug\Jiaen.BLL.pdb

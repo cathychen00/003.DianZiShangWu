@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/default.aspx" title="首页"  description="首页">
+      <siteMapNode url="~/admin/login.aspx" title="后台登录"  description="后台登录" />
+      <siteMapNode title="后台管理"  description="后台管理">
+        <siteMapNode url="~/admin/Default.aspx" title="登录首页"  description="登录首页" />
+        <siteMapNode title="图书管理"  description="图书管理">
+          <siteMapNode url="~/admin/addBookCategory.aspx" title="图书分类操作"  description="图书分类操作" />
+          <siteMapNode url="~/admin/category.aspx" title="图书分类管理"  description="图书分类管理" />
+          <siteMapNode url="~/admin/addBookCatena.aspx" title="图书系列操作"  description="图书系列操作" />
+          <siteMapNode url="~/admin/bookCatena.aspx" title="图书系列管理"  description="图书系列管理" />
+          <siteMapNode url="~/admin/addPublish.aspx" title="出版社操作"  description="出版社操作" />
+          <siteMapNode url="~/admin/publish.aspx" title="出版社管理"  description="出版社管理" />
+          <siteMapNode url="~/admin/addBook.aspx" title="图书操作"  description="图书操作" />
+          <siteMapNode url="~/admin/bookList.aspx" title="图书列表"  description="图书列表" />
+        </siteMapNode>
+        <siteMapNode url="~/admin/addDynamic.aspx" title="新闻动态操作"  description="新闻动态操作" />
+        <siteMapNode url="~/admin/Dynamic.aspx" title="新闻动态管理"  description="新闻动态管理" />
+        <siteMapNode url="~/admin/addPoll.aspx" title="网站调查操作"  description="网站调查操作" />
+        <siteMapNode url="~/admin/polls.aspx" title="调查管理"  description="调查管理" />
+        <siteMapNode url="~/admin/addTitleCss.aspx" title="标题样式操作"  description="标题样式操作" />
+        <siteMapNode url="~/admin/titleCss.aspx" title="标题样式管理"  description="标题样式管理" />
+        <siteMapNode title="会员管理"  description="会员管理">
+          <siteMapNode url="~/admin/memberList.aspx" title="会员列表"  description="会员列表" />
+          <siteMapNode url="~/admin/#" title="会员列表"  description="会员列表" />
+          
+        </siteMapNode>
+        <siteMapNode url="~/admin/addFriendLink.aspx" title="友情链接操作"  description="友情链接操作" />
+        <siteMapNode url="~/admin/friendLink.aspx" title="友情链接管理"  description="友情链接管理" />
+          <!--<siteMapNode url="~/admin/titleCss.aspx" title="标题样式管理"  description="标题样式管理" />-->
+        </siteMapNode>
+      
+      
+      <siteMapNode title="会员管理"  description="会员管理" >
+        <siteMapNode url="~/user/login.aspx" title="登录"  description="登录" />
+        <siteMapNode url="~/user/a" title="会员注册"  description="会员注册" />
+        <siteMapNode url="~/user/v" title="找回密码"  description="找回密码" />
+        <siteMapNode url="~/user/addressInfo.aspx" title="送货地址"  description="送货地址" />
+        <siteMapNode url="~/user/favBookInfo.aspx" title="图书收藏"  description="图书收藏" />
+        <siteMapNode url="~/user/orderInfo.aspx" title="订单信息"  description="订单信息" />
+        <siteMapNode url="~/user/reviewInfo.aspx" title="评论信息"  description="评论信息" />
+        <siteMapNode url="~/user/messageInfo.aspx" title="留言信息"  description="留言信息" />
+        <siteMapNode url="~/user/showInfo.aspx" title="个人信息"  description="个人信息" />
+      </siteMapNode>
+      
+      <siteMapNode url="~/newbook.aspx" title="新书上架"  description="新书上架" />
+      <siteMapNode url="~/dynamic.aspx" title="店内动态"  description="店内动态" />
+      <siteMapNode url="~/topsale.aspx" title="销售排行"  description="销售排行" />
+      <siteMapNode url="~/preview.aspx" title="在线投稿"  description="在线投稿" />
+      <siteMapNode url="~/catena.aspx" title="规划教材"  description="规划教材" />
+      <siteMapNode url="~/AuthorList.aspx" title="教师之家"  description="教师之家" />
+      <siteMapNode url="~/cheapbook.aspx" title="特价图书"  description="特价图书" />
+      <siteMapNode url="~/downLoad.aspx" title="资源下载"  description="资源下载" />
+      <siteMapNode url="~/downLoadInfo.aspx" title="具体下载"  description="具体下载" />
+      <siteMapNode url="http://bbs.jinen.com" title="论坛"  description="论坛" />
+      <siteMapNode url="catBook.aspx" title="图书分类"  description="图书分类" />
+      <siteMapNode url="userReg.aspx" title="会员注册"  description="会员注册" />
+      <siteMapNode url="login.aspx" title="会员登录"  description="会员登录" />
+      <siteMapNode url="pwd.aspx" title="找回密码"  description="找回密码" />
+      <siteMapNode url="bookclass.aspx" title="图书分类"  description="图书分类" />
+      <siteMapNode url="bookInfo.aspx" title="图书浏览"  description="图书浏览" />
+      <siteMapNode url="dynamicInfo.aspx" title="店内动态"  description="店内动态" />
+      <siteMapNode url="ReviewInfo.aspx" title="图书评论"  description="图书评论" />
+      <siteMapNode url="SearchBook.aspx" title="图书搜索"  description="图书搜索" />
+      </siteMapNode>
+</siteMap>

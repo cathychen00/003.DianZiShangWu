@@ -1,0 +1,35 @@
+﻿<asp:GridView Width=100% Font-Size="8pt" skinID="orange" runat="server" ForeColor="#333333" CellPadding="4">
+		<FooterStyle BackColor="#507CD1" ForeColor="White" Font-Bold="True" />
+		<RowStyle HorizontalAlign="Center" BackColor="White" BorderStyle="Solid" BorderWidth="1px" BorderColor="#FF9000" />
+		<PagerStyle BackColor="#FF9000" ForeColor="White" HorizontalAlign="Left" />
+		<HeaderStyle HorizontalAlign="Center" BackColor="#FF9000" Font-Bold="True" />
+		<AlternatingRowStyle BackColor="#F9F8DD" BorderStyle="Solid" BorderWidth="1px" CssClass="Gridviewcss" BorderColor="#FF9000" />   
+	</asp:GridView>
+	<asp:GridView Width=100% Font-Size="8pt" runat="server" ForeColor="#333333" CellPadding="4">
+		<FooterStyle BackColor="#507CD1" ForeColor="White" Font-Bold="True" />
+		<RowStyle HorizontalAlign="Center" BackColor="White" BorderStyle="Solid" BorderWidth="1px" BorderColor="#FF9000" />
+		<PagerStyle BackColor="#FF9000" ForeColor="White" HorizontalAlign="Left" />
+		<HeaderStyle HorizontalAlign="Center" BackColor="#FF9000" Font-Bold="True" />
+		<AlternatingRowStyle BackColor="#F9F8DD" BorderStyle="Solid" BorderWidth="1px" CssClass="Gridviewcss" BorderColor="#FF9000" />   
+	</asp:GridView>
+	<asp:FormView Width=100% Font-Size="8pt" skinID="orange" runat="server" ForeColor="#333333" CellPadding="4">
+		<FooterStyle BackColor="#507CD1" ForeColor="White" Font-Bold="True" />
+		<EditRowStyle HorizontalAlign="Center" BackColor="White" BorderStyle="Solid" BorderWidth="1px" BorderColor="#FF9000" />
+		<PagerStyle BackColor="#FF9000" ForeColor="White" HorizontalAlign="Left" />
+		<HeaderStyle HorizontalAlign="Center" BackColor="#FF9000" Font-Bold="True" />
+		<InsertRowStyle BackColor="#F9F8DD" BorderStyle="Solid" BorderWidth="1px" CssClass="Gridviewcss" BorderColor="#FF9000" />   
+	</asp:FormView>
+		<asp:DetailsView Width=100% Font-Size="8pt" skinID="orange" runat="server" ForeColor="#333333" CellPadding="4">
+		<FooterStyle BackColor="#507CD1" ForeColor="White" Font-Bold="True" />
+		<EditRowStyle BackColor="#F9F8DD" BorderStyle="Solid" BorderWidth="1px" CssClass="Gridviewcss" BorderColor="#FF9000"  />
+		<PagerStyle BackColor="#FF9000" ForeColor="White" HorizontalAlign="Left" />
+		<HeaderStyle ForeColor="Black" HorizontalAlign="Center" BackColor="#FF9000" Font-Bold="True" />
+		<InsertRowStyle BackColor="#F9F8DD" BorderStyle="Solid" BorderWidth="1px" CssClass="Gridviewcss" BorderColor="#FF9000" />   
+	</asp:DetailsView>
+			<asp:DetailsView Width=100% Font-Size="8pt" runat="server" ForeColor="#333333" CellPadding="4">
+		<FooterStyle BackColor="#507CD1" ForeColor="White" Font-Bold="True" />
+		<EditRowStyle BackColor="#F9F8DD" BorderStyle="Solid" BorderWidth="1px" CssClass="Gridviewcss" BorderColor="#FF9000"  />
+		<PagerStyle BackColor="#FF9000" ForeColor="White" HorizontalAlign="Left" />
+		<HeaderStyle ForeColor="Black" HorizontalAlign="Center" BackColor="#FF9000" Font-Bold="True" />
+		<InsertRowStyle BackColor="#F9F8DD" BorderStyle="Solid" BorderWidth="1px" CssClass="Gridviewcss" BorderColor="#FF9000" />   
+	</asp:DetailsView>
