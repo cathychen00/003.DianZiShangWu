@@ -6,3 +6,6 @@ Asp.net2.0电子商务网源码
    主要参考了petshop的设计架构、使用了Asp.net2.0中很多MemberShip、master等新功能
    后台管理地址/web/admin/ 超级管理员账号密码均为51aspx
 
+
+生成验证码：MarkCode.aspx
+
