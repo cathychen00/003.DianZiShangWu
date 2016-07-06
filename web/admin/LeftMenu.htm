@@ -4,38 +4,30 @@
     <link href="../images/cssothers.css" type="text/css" rel="stylesheet" />
     <title>LeftMenu</title>
     <style type="text/css">
-<!--
-body {
-	background-color: #ffffff;
-}
--->
-</style>
+        <!--
+        body {
+            background-color: #ffffff;
+        }
+        -->
+    </style>
 </head>
 <body>
-
-    <script>
-function showMenu(obj){
-//alert()
-	var ob = event.srcElement;
-	if(ob.tagName == "TD")
-	{
-		ob = ob.parentNode.childNodes[1].childNodes[0]
-	}
-	if(ob.tagName == "A")
-	{
-		ob = ob.parentNode.parentNode.childNodes[1].childNodes[0]
-	}
-	if(obj.style.display =="")
-	{
-		obj.style.display = "none"
-		ob.src ="../images/up.gif"
-	}
-	else
-	{
-		obj.style.display = ""
-		ob.src = "../images/down.gif"
-	}
-}
+    <script type="text/javascript" src="../JScript/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript">
+        function showMenu(obj, ob) {
+            var $img;
+            if (ob.tagName == "TR") {
+                $img = jQuery(ob).find("td:eq(1) img");
+            }
+            if (jQuery(obj).is(":visible")) {
+                jQuery(obj).hide();
+                $img.attr("src", "../images/up.gif");
+            }
+            else {
+                jQuery(obj).show();
+                $img.attr("src", "../images/down.gif");
+            }
+        }
     </script>
 
     <script language="JavaScript" src="TopMenu.htm"></script>
@@ -44,37 +36,31 @@ function showMenu(obj){
         <tbody>
             <tr>
                 <td class="Left_03" valign="top" width="8">
-                    <img height="7" src="../../theme/Admin_2.gif" width="8"></td>
-                <td class="Left_01">
+                    <img height="7" src="../../theme/Admin_2.gif" width="8">
                 </td>
+                <td class="Left_01"></td>
                 <td class="Left_04" valign="top" width="8">
-                    <img height="7" src="../images/Admin_5.gif" width="8"></td>
+                    <img height="7" src="../images/Admin_5.gif" width="8">
+                </td>
             </tr>
             <tr>
-                <td class="Left_03">
-                </td>
+                <td class="Left_03"></td>
                 <td valign="top">
                     <table class="Left_Item01" cellspacing="0" cellpadding="0" width="100%" border="0">
                         <tbody>
-                            <tr onclick="showMenu(a2,this)">
-                                <td class="Left_Item01_Title" style="cursor: hand">
-                                    图书管理</td>
-                                <td style="cursor: hand">
-                                    <img alt="显示/隐藏子菜单" src="../images/down.gif"></td>
-                            </tr>
+                            <tr onclick="showMenu(a2,this)"><td class="Left_Item01_Title" style="cursor: hand">图书管理</td><td style="cursor: hand"><img alt="显示/隐藏子菜单" src="../images/down.gif"></td></tr>
                         </tbody>
                     </table>
                     <table class="Left_boder" id="a2" cellspacing="0" cellpadding="0" width="100%" border="0">
                         <tbody>
                             <tr>
                                 <td class="Left_Item02">
-                                    <a href="bookList.aspx" target="main">图书列表</a> <font color="#ff9000">| </font><a
-                                        href="BookCategory.aspx" target="main">图书分类</a></td>
+                                    <a href="bookList.aspx" target="main">图书列表</a> <font color="#ff9000">| </font><a href="BookCategory.aspx" target="main">图书分类</a>
+                                </td>
                             </tr>
                             <tr>
                                 <td class="Left_Item02">
-                                    <a href="publish.aspx" target="main">图书出版社</a> <font color="#ff9000">| </font><a
-                                        href="bookCatena.aspx" target="main">图书系列
+                                    <a href="publish.aspx" target="main">图书出版社</a> <font color="#ff9000">| </font><a href="bookCatena.aspx" target="main">图书系列
                                 </td>
                             </tr>
                             <tr>
@@ -89,9 +75,11 @@ function showMenu(obj){
                         <tbody>
                             <tr onclick="showMenu(a3,this)">
                                 <td class="Left_Item01_Title" style="cursor: hand">
-                                    订单管理</td>
+                                    订单管理
+                                </td>
                                 <td style="cursor: hand">
-                                    <img alt="显示/隐藏子菜单" src="../images/down.gif" /></td>
+                                    <img alt="显示/隐藏子菜单" src="../images/down.gif" />
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -99,8 +87,8 @@ function showMenu(obj){
                         <tbody>
                             <tr>
                                 <td class="Left_Item02">
-                                    <a href="orderList.aspx" target="main">订单列表</a> <font color="#ff9000">| </font><a
-                                        href="todayOrder.aspx" target="main">今日订单</a></td>
+                                    <a href="orderList.aspx" target="main">订单列表</a> <font color="#ff9000">| </font><a href="todayOrder.aspx" target="main">今日订单</a>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -108,9 +96,11 @@ function showMenu(obj){
                         <tbody>
                             <tr onclick="showMenu(a4,this)">
                                 <td class="Left_Item01_Title" style="cursor: hand">
-                                    会员管理</td>
+                                    会员管理
+                                </td>
                                 <td style="cursor: hand">
-                                    <img alt="显示/隐藏子菜单" src="../images/down.gif" /></td>
+                                    <img alt="显示/隐藏子菜单" src="../images/down.gif" />
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -119,7 +109,8 @@ function showMenu(obj){
                             <tr>
                                 <td class="Left_Item02">
                                     <a href="memberList.aspx" target="main">会员列表</a> <font color="#ff9000">| </font>
-                                    <a href="memberList.aspx?roleName=Admin" target="main">管理员列表</a></td>
+                                    <a href="memberList.aspx?roleName=Admin" target="main">管理员列表</a>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -127,9 +118,11 @@ function showMenu(obj){
                         <tbody>
                             <tr onclick="showMenu(a1,this)">
                                 <td class="Left_Item01_Title" style="cursor: hand">
-                                    网站设置</td>
+                                    网站设置
+                                </td>
                                 <td style="cursor: hand">
-                                    <img alt="显示/隐藏子菜单" src="../images/down.gif" /></td>
+                                    <img alt="显示/隐藏子菜单" src="../images/down.gif" />
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -138,17 +131,22 @@ function showMenu(obj){
                             <tr>
                                 <td class="Left_Item02">
                                     <a href="Config.aspx" target="main">基本信息</a> <font color="#ff9000">| </font><a href="smtpServer.aspx"
-                                        target="main">邮件配置</a></td>
+                                                                                                                   target="main">邮件配置</a>
+                                </td>
                             </tr>
                             <tr>
                                 <td class="Left_Item02">
                                     <a href="Send.aspx" target="main">配送方式</a> <font color="#ff9000">| </font><a href="Payment.aspx"
-                                        target="main">支付方式</a></td>
+                                                                                                                 target="main">支付方式</a>
+                                </td>
                             </tr>
                             <tr>
                                 <td class="Left_Item02">
-                                    <a href="SendArea.aspx" target="main">配送区域</a> <font color="#ff9000">| <span style="color: #de781e">
-                                    </span></font><a href="friendLink.aspx" target="main">友情链接</a></td>
+                                    <a href="SendArea.aspx" target="main">配送区域</a> <font color="#ff9000">
+                                        | <span style="color: #de781e">
+                                        </span>
+                                    </font><a href="friendLink.aspx" target="main">友情链接</a>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -156,9 +154,11 @@ function showMenu(obj){
                         <tbody>
                             <tr onclick="showMenu(a5,this)">
                                 <td class="Left_Item01_Title" style="cursor: hand">
-                                    信息管理</td>
+                                    信息管理
+                                </td>
                                 <td style="cursor: hand">
-                                    <img alt="显示/隐藏子菜单" src="../images/down.gif" /></td>
+                                    <img alt="显示/隐藏子菜单" src="../images/down.gif" />
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -167,18 +167,18 @@ function showMenu(obj){
                             <tr>
                                 <td class="Left_Item02">
                                     <a href="Dynamic.aspx" target="main">新闻动态</a> <font color="#ff9000">| </font><a href="HelpList.aspx"
-                                        target="main">帮助中心</a></td>
+                                                                                                                    target="main">帮助中心</a>
+                                </td>
                             </tr>
                             <tr>
                                 <td class="Left_Item02">
-                                    <a href="titleCss.aspx" target="main">样式管理</a> <font color="#ff9000">| </font><a
-                                        href="polls.aspx" target="main">调查管理</a>
+                                    <a href="titleCss.aspx" target="main">样式管理</a> <font color="#ff9000">| </font><a href="polls.aspx" target="main">调查管理</a>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="Left_Item02">
                                     <a href="Teacher.aspx" target="main">教师管理</a> <font color="#ff9000">| </font><a href="downList.aspx"
-                                        target="main">下载管理</a>
+                                                                                                                    target="main">下载管理</a>
                                 </td>
                             </tr>
                         </tbody>
@@ -187,10 +187,13 @@ function showMenu(obj){
                         <tbody>
                             <tr>
                                 <td class="Left_Item01_Title">
-                                    版权信息</td>
+                                    版权信息
+                                </td>
                                 <td>
                                     <span style="cursor: hand">
-                                        <img alt="显示/隐藏子菜单" src="../images/down.gif" /></span></td>
+                                        <img alt="显示/隐藏子菜单" src="../images/down.gif" />
+                                    </span>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -199,47 +202,41 @@ function showMenu(obj){
                             <tr>
                                 <td class="Left_Item02" id="version">
                                     浙江商职院电商0407<br>
-                                    <a href="http://www.51aspx.com" target="_blank">download from 51aspx.com</a>
-
                                     <br>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
                 </td>
-                <td class="Left_04">
-                </td>
+                <td class="Left_04"></td>
             </tr>
             <tr>
                 <td class="Left_03" valign="bottom" width="8">
-                    <img height="8" src="../images/Admin_8.gif" width="8"></td>
-                <td class="Left_02">
+                    <img height="8" src="../images/Admin_8.gif" width="8">
                 </td>
+                <td class="Left_02"></td>
                 <td class="Left_04" valign="bottom" width="8">
-                    <img height="8" src="../images/Admin_1.gif" width="8"></td>
+                    <img height="8" src="../images/Admin_1.gif" width="8">
+                </td>
             </tr>
         </tbody>
     </table>
 
     <script>
-	var table = document.getElementById("LeftMenu");
-	if(table != null)
-	{
-		for(var i=0;i < table.rows.length;i++)
-		{
-			table.rows[i].onclick = function(){
-				var e = event.srcElement;
-				e = e.parentNode.parentNode;
-				for(var i=0;i<table.rows.length;i++)
-				{
-					table.rows[i].className = "C_Left_Menu_default";
-				}
-				e.className = "C_Left_Menu_current";
-			}
-		}
-	}
+        var table = document.getElementById("LeftMenu");
+        if (table != null) {
+            for (var i = 0; i < table.rows.length; i++) {
+                table.rows[i].onclick = function () {
+                    var e = event.srcElement;
+                    e = e.parentNode.parentNode;
+                    for (var i = 0; i < table.rows.length; i++) {
+                        table.rows[i].className = "C_Left_Menu_default";
+                    }
+                    e.className = "C_Left_Menu_current";
+                }
+            }
+        }
     </script>
 
 </body>
 </html>
-

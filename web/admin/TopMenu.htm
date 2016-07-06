@@ -1,83 +1,77 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<LINK href="../images/cssothers.css" 
-type=text/css rel=stylesheet />
-<title>TopMenu</title>
-<style type="text/css">
-<!--
-body {
-	background-color: #ffffff;
-}
--->
-</style></head>
-
-
-<SCRIPT language=JavaScript type=text/JavaScript>
-	
-		function preloadImg(src) 
-		{
-			var img=new Image();
-			img.src=src;
-		}
-		function setLocationOver(o){return;}
-		function setMainLocation(win){
-			var lo = win.location.toString();
-			var lo1 = "";
-			for(var i = 0;i < lo.length;i++)
-			{
-				var cha = lo.charAt(i);
-				if(cha == "&")
-					lo1 +="==="
-				else
-					lo1 += cha;
-			}
-			if(window.XMLHttp)XMLHttp.sendReq("GET","?op=13&lo=" + lo1,"",setLocationOver);
-		}
-		preloadImg('../Images/open.gif');
-
-		var displayBar=true;
-		function switchBar(obj) 
-		{
-			if (displayBar) 
-			{
-				parent.frame.cols='0,*';
-				displayBar=false;
-				obj.src='../Images/open.gif';
-				obj.title='打开左边管理导航菜单';
-			} 
-			else 
-			{
-				parent.frame.cols='200,*';
-				displayBar=true;
-				obj.src='../Images/close.gif';
-				obj.title='关闭左边管理导航菜单';
-			}
-		}
-		
-		
-		</SCRIPT>
-
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <LINK href="../images/cssothers.css"
+          type=text/css rel=stylesheet />
+    <title>TopMenu</title>
+    <style type="text/css">
+        <!--
+        body {
+            background-color: #ffffff;
+        }
+        -->
+    </style>
+</head>
 <BODY>
-
- 
 <TABLE class=Headerbg cellSpacing=0 cellPadding=0 width="100%" border=0>
-  <TBODY>
-  <TR>
-    <TD class=HeaderLeft width=12>&nbsp;</TD>
-    <TD width=130><A href="#" target=_blank><IMG 
-      height=34 alt=迦恩网店 src="../images/Admin2.gif" width=130 
-      border=0></A></TD>
-    <TD vAlign=top align=right width=55><IMG title=关闭左边管理导航菜单 
-      style="CURSOR: hand" onclick=switchBar(this) src="../images/open.gif"> 
-    </TD>
-    <TD align=right>&nbsp;</TD>
-    <TD align=middle width=250></TD>
-    <TD class=HeaderMiddle style="FONT-WEIGHT: bold" vAlign=top align=middle 
-    width=200><A id=ShopIndex href="../Default.aspx" 
-      target=_blank><font color="#ffffff">网店首页</font></A></TD>
-    <TD class=HeaderRight width=12>&nbsp;</TD></TR></TBODY></TABLE>
+    <TBODY>
+    <TR>
+        <TD class=HeaderLeft width=12>&nbsp;</TD>
+        <TD width=130>
+            <A href="../Default.aspx" target=_blank>
+                <IMG height=34 alt=迦恩网店 src="../images/Admin2.gif" width=130 border=0/>
+            </A>
+        </TD>
+        <TD vAlign=top align=right width=55>
+            <IMG title=关闭左边管理导航菜单 style="CURSOR: hand" onclick=switchBar(this) src="../images/open.gif"/>
+        </TD>
+        <TD align=right>&nbsp;</TD>
+        <TD align=middle width=250></TD>
+        <TD class=HeaderMiddle style="FONT-WEIGHT: bold" vAlign=top align=middle width=200>
+            <A id=ShopIndex href="../Default.aspx" target=_blank><font color="#ffffff">网店首页</font></A>
+        </TD>
+        <TD class=HeaderRight width=12>&nbsp;</TD>
+    </TR>
+    </TBODY>
+</TABLE>
+</BODY>
+<script language=JavaScript type=text/JavaScript>
 
-</BODY></HTML>
+    function preloadImg(src) {
+        var img = new Image();
+        img.src = src;
+    }
+    function setLocationOver(o) { return; }
+    function setMainLocation(win) {
+        var lo = win.location.toString();
+        var lo1 = "";
+        for (var i = 0; i < lo.length; i++) {
+            var cha = lo.charAt(i);
+            if (cha == "&")
+                lo1 += "==="
+            else
+                lo1 += cha;
+        }
+        if (window.XMLHttp) XMLHttp.sendReq("GET", "?op=13&lo=" + lo1, "", setLocationOver);
+    }
+    preloadImg('../Images/open.gif');
 
+    var displayBar = true;
+    function switchBar(obj) {
+        if (displayBar) {
+            parent.frame.cols = '0,*';
+            displayBar = false;
+            obj.src = '../Images/open.gif';
+            obj.title = '打开左边管理导航菜单';
+        }
+        else {
+            parent.frame.cols = '200,*';
+            displayBar = true;
+            obj.src = '../Images/close.gif';
+            obj.title = '关闭左边管理导航菜单';
+        }
+    }
+
+</script>
+</html>
